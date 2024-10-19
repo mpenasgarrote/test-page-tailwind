@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tailwind Marc Penas</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1 class="text-3xl font-bold">Tailwind Showcase</h1>
+		<section class="container w-fit h-fit p-5">
+			<div class="md:container md:mx-auto md:h-auto bg-gray-100 p-4 mb-4">
+				<h3 class="text-base font-bold text-2xl mb-3">
+					Colors and Backgrounds
+				</h3>
+				<div class="flex">
+					<div
+						class="container md:w-60 md:h-20 border-2 border-gray-400 bg-transparent"
+					></div>
+					<div class="w-60 h-20 bg-red-200 border-2 border-red-400"></div>
+					<div class="w-60 h-20 bg-yellow-200 border-2 border-yellow-400"></div>
+					<div class="w-60 h-20 bg-green-200 border-2 border-green-400"></div>
+				</div>
+			</div>
+
+			<div class="md:container md:mx-auto md:h-auto bg-gray-100 p-4">
+				<div class="flex">
+					<div
+						class="container md:w-60 md:h-20 border-2 border-gray-400 bg-gray-100"
+					></div>
+					<div class="w-60 h-20 bg-gray-200 border-2 border-gray-400"></div>
+					<div class="w-60 h-20 bg-gray-300 border-2 border-gray-400"></div>
+					<div class="w-60 h-20 bg-gray-400 border-2 border-gray-400"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Text</h3>
+			<p class="text-sm">This is a small text</p>
+			<p class="text-base">This is a base text</p>
+			<p class="text-lg">This is a large text</p>
+			<p class="text-xl">This is an extra large text</p>
+			<p class="text-3xl">This is a 3x extra large text</p>
+			<p class="text-4xl">This is a 4x extra large text</p>
+			<p class="text-5xl">This is a 5x extra large text</p>
+			<p class="text-8xl">This is a 8x extra large text</p>
+			<p class="text-9xl">This is a 9x extra large text</p>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Text Decoration</h3>
+			<p class="underline">This is an underlined text</p>
+			<p class="line-through">This is a line through text</p>
+			<p class="line-through underline">
+				This is an underlined line through text
+			</p>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Text Alignment</h3>
+			<p class="text-left">This is a left-aligned text</p>
+			<p class="text-center">This is a center-aligned text</p>
+			<p class="text-right">This is a right-aligned text</p>
+		</section>
+
+		<section class="bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Sizes</h3>
+			<div class="flex">
+				<div
+					class="text-xs text-center content-center container md:w-60 md:h-20 border-2 border-gray-400 bg-gray-100"
+				>
+					XS
+				</div>
+				<div
+					class="text-sm text-center content-center w-60 h-20 bg-gray-200 border-2 border-gray-400"
+				>
+					SM
+				</div>
+				<div
+					class="text-base text-center content-center w-60 h-20 bg-gray-300 border-2 border-gray-400"
+				>
+					BASE
+				</div>
+				<div
+					class="text-lg text-center content-center w-60 h-20 bg-gray-400 border-2 border-gray-400"
+				>
+					LG
+				</div>
+			</div>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Borders</h3>
+			<div class="flex">
+				<div
+					class="w-60 h-20 bg-gray-100 border-2 rounded-none border-gray-400"
+				></div>
+				<div
+					class="w-60 h-20 bg-gray-200 border-2 rounded-sm border-gray-400"
+				></div>
+				<div
+					class="w-60 h-20 bg-gray-300 border-2 rounded-lg border-gray-400"
+				></div>
+				<div
+					class="w-60 h-20 bg-gray-400 border-2 rounded-full border-gray-400"
+				></div>
+			</div>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Margins</h3>
+			<div
+				class="w-auto h-auto bg-gray-200 border-2 rounded-none border-gray-400 m-6"
+			>
+				This div has a margin of 1.5 rem on all sides
+			</div>
+			<div
+				class="w-auto h-auto bg-gray-300 border-2 rounded-none border-gray-400 mx-6 my-12"
+			>
+				This div has a horizontal margin of 1.5 rem and a vertical margin of 3
+				rem
+			</div>
+			<div
+				class="w-auto h-auto bg-gray-400 border-2 rounded-none border-gray-400 mt-4 mr-8 mb-10 ml-14"
+			>
+				This div has a margin of 1rem on the top, 2 rem on the right, 3 rem on
+				the bottom and 4 rem on the left
+			</div>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Margins</h3>
+			<div
+				class="w-auto h-auto bg-gray-200 border-2 rounded-none border-gray-400 p-6"
+			>
+				This div has a margin of 1.5 rem on all sides
+			</div>
+			<div
+				class="w-auto h-auto bg-gray-300 border-2 rounded-none border-gray-400 px-6 py-10"
+			>
+				This div has a horizontal margin of 1.5 rem and a vertical margin of 3
+				rem
+			</div>
+			<div
+				class="w-auto h-auto bg-gray-400 border-2 rounded-none border-gray-400 pt-4 pr-8 pb-16 pl-14"
+			>
+				This div has a margin of 1rem on the top, 2 rem on the right, 3 rem on
+				the bottom and 4 rem on the left
+			</div>
+		</section>
+
+		<h3 class="font-bold text-2xl mx-5">Card 1</h3>
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<div class="card">
+				<div
+					class="w-1/2 h-56 bg-gray-300 border-2 rounded-lg px-6 py-10 text-4xl text-gray-500 text-center content-center mb-4"
+				>
+					300 x 200
+				</div>
+				<h3 class="font-bold text-xl mb-3">Card Title</h3>
+				<p>This is a basic card example with an image and no flex.</p>
+				<button
+					class="bg-blue-500 px-2 py-2 rounded-lg w-24 text-white font-bold mt-4"
+				>
+					Button
+				</button>
+			</div>
+		</section>
+
+		<h3 class="font-bold text-2xl mx-5">Card 2</h3>
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<div class="card">
+				<h4 class="font-bold text-xl mb-3">Card Title</h4>
+				<p>This is a basic card example with an image and no flex.</p>
+				<ul class="list-disc ml-5">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+				<button
+					class="bg-blue-500 px-2 py-2 rounded-lg w-24 text-white font-bold"
+				>
+					Button
+				</button>
+			</div>
+		</section>
+
+		<section class="md:container md:h-auto bg-gray-100 p-4 mb-4 mx-5">
+			<h3 class="font-bold text-2xl mb-3">Buttons</h3>
+
+			<button
+				class="bg-blue-500 px-2 py-2 rounded-md w-24 text-white font-bold"
+			>
+				Button 1
+			</button>
+			<button
+				class="bg-green-500 px-2 py-2 rounded-full w-24 text-white font-bold"
+			>
+				Button 2
+			</button>
+			<button class="bg-red-500 px-2 py-2 rounded-lg w-24 text-white font-bold">
+				Button 3
+			</button>
+		</section>
+	</body>
+</html>
